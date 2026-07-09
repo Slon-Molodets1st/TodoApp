@@ -13,7 +13,7 @@ def create_todo(db: Session, todo: schemas.TodoCreate):
         description=todo.description,
         completed=todo.completed if todo.completed is not None else False
     )
-    db.add(db_todo)  # ← Используем db.add()
+    db.add(db_todo) 
     db.commit()
     db.refresh(db_todo)
     return db_todo
