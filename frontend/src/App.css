@@ -1,0 +1,163 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-header{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.app-header h1{
+  margin: 0;
+  color: #2c3e50;
+}
+
+.app-main{
+  padding: 20px 0;
+}
+
+.error-message{
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.loading{
+  text-align: center;
+  padding: 40px 0;
+  color: #6c757d;
+}
+
+.todo-form{
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+.form-input{
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-input:focus{
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.btn{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary{
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover{
+  background-color: #0056b3;
+}
+
+.btn-danger{
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover{
+  background-color: #c82333;
+}
+
+.todo-list{
+  margin-top: 20px;
+}
+
+.empty-message{
+  text-align: center;
+  color: #6c757d;
+  padding: 40px 0;
+}
+
+.todo-items{
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.todo-item:hover{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.completed{
+  background: #f8f9fa;
+  opacity: 0.7;
+}
+
+.todo-item.completed .todo-title{
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.todo-content{
+  flex: 1;
+  margin-right: 20px;
+}
+
+.todo-header{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.todo-checkbox{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.todo-title{
+  margin: 0;
+  font-size: 18px;
+}
+
+.todo-description{
+  margin: 10px 0 0 35px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.todo-date{
+  font-size: 12px;
+  color: #6c757d;
+  margin-left: auto;
+}
