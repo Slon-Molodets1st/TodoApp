@@ -15,7 +15,7 @@
 ## Технологии
 
 **Бэкенд:**
-- [FastAPI](https://fastapi.tiangolo.com/) — современный веб-фреймворк
+- [FastAPI](https://fastapi.tiangolo.com/) — веб-фреймворк для создания API
 - [SQLAlchemy](https://www.sqlalchemy.org/) — ORM для работы с БД
 - [Pydantic](https://docs.pydantic.dev/) — валидация данных
 - [Uvicorn](https://www.uvicorn.org/) — ASGI сервер
